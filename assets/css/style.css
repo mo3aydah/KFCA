@@ -1,0 +1,34 @@
+.image {
+    width: 1080px;
+    height: 1920px;
+}
+
+body {
+    background: url("../../assets/images/background-color.jpg");
+}
+
+@font-face {
+    font-family: "GESS";
+    src: url(../fonts/GE_SS_TEXT_LIGHT.otf); 
+}
+
+#myCanvas{
+    font-family: "GESS";
+    max-height: 800px;
+}
+
+
+.container {
+    display: block;
+    margin: auto;
+    height: auto;
+  }
+
+canvas {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+body{
+    font-family: "GESS";
+}
